@@ -1,7 +1,7 @@
 # customize the values below
 TARGET_REGION ?= cn-northwest-1
 AWS_PROFILE ?= default
-KOPS_STATE_STORE ?= s3://flz-kops-state-store-zhy
+KOPS_STATE_STORE ?= s3://
 VPCID ?= vpc-0893cf720aca56c60
 MASTER_COUNT ?= 3
 MASTER_SIZE ?= t2.small
